@@ -1,0 +1,7 @@
+com/chatbot/ChatbotManager.class
+com/controller/LogController.class
+com/chatbot/LogChatbot.class
+com/Job/LogJob.class
+com/chatbot/Chatbot.class
+com/chatbot/Util.class
+com/chatbot/Webhook.class
