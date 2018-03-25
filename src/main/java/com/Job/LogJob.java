@@ -17,6 +17,7 @@ public class LogJob {
     public void sendMsg(){
         Chatbot chatbot= ChatbotManager.instance().get(Webhook.LOG);
         chatbot.send("scheduled","code test");
+        log.info("shact");
 
     }
 }

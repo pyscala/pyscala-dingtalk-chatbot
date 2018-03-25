@@ -6,4 +6,5 @@ package com.Job;
 public class TestJob {
 
     private String a="q;";
+    private String d = "ddd";
 }
