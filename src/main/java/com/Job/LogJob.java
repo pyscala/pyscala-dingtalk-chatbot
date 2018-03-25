@@ -19,4 +19,8 @@ public class LogJob {
         chatbot.send("scheduled","code test");
 
     }
+
+    public void testMsg(){
+        log.info("aad");
+    }
 }
