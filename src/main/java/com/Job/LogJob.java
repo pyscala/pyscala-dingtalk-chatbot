@@ -23,4 +23,8 @@ public class LogJob {
     public void testMsg(){
         log.info("aad");
     }
+
+    public void testMSSSG(){
+        log.info("ssss");
+    }
 }
