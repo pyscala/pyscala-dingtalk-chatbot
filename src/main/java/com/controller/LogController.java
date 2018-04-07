@@ -6,7 +6,11 @@ import com.chatbot.Webhook;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by liufangliang on 2018/2/2.
@@ -29,6 +33,13 @@ public class LogController {
 
         chatbot.send("爱回收爬虫","不入库");
 
+    }
+    @RequestMapping("/json")
+    @ResponseBody
+    public Map<String,Object> requestJson(){
+        Map<String,Object> map = new HashMap<String, Object>();
+        map.put("status","success");
+        return map;
     }
 
 }
